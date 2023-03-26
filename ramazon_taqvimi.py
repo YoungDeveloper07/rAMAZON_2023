@@ -782,12 +782,12 @@ async def send_taqvimDuo(message: types.Message):
 @dp.message_handler(text='📚Bot haqida')
 async def send_bothaqaida(message: types.Message):
     await message.answer(
-        text=f"👨🏻‍💻 Loyiha asoschisi — Young Dev va ImYago\n"
+        text=f"👨🏻‍💻 Loyiha asoschisi — @young_developer_07, @ImYago va @Ilyosbek_Kv\n"
              f"📜 Ma'lumotlar: \n "
              f"➖islom.uz \n"
              f"➖namozvaqti.uz\n "
              f"sahifalardan olindi \n"
-             f"📩 Murojaatlar uchun — @young_developer_07",
+             f"📩 Murojaatlar uchun — @young_developer_07, @ImYago va @Ilyosbek_Kv",
         reply_markup=keyboardS
     )
 
